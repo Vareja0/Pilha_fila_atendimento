@@ -84,7 +84,7 @@ O projeto é composto por cinco classes principais:
 
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/Vareja0/Pilha_fila_atendimento.git
    ```
 2. Compile os arquivos Java:
     ```bash
