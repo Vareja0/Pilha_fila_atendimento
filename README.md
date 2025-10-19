@@ -22,7 +22,7 @@ O projeto é composto por cinco classes principais:
     - `datahora` (String): Data e hora da solicitação.
 - **Métodos**:
     - Construtor: Inicializa os atributos `id`, `descricao` e `datahora`.
-- **Restrições**: Usa apenas `String`, conforme permitido pelo enunciado.
+
 
 ### 2. Cliente.java
 - **Propósito**: Representa um cliente na fila de atendimento.
@@ -32,7 +32,7 @@ O projeto é composto por cinco classes principais:
     - `descricao` (String): Motivo do atendimento.
 - **Métodos**:
     - Construtor: Inicializa os atributos `id`, `nome` e `descricao`.
-- **Restrições**: Usa apenas `String`, conforme permitido.
+
 
 ### 3. Node.java
 - **Propósito**: Define o nó da lista encadeada, usado tanto pela pilha quanto pela fila.
@@ -43,7 +43,6 @@ O projeto é composto por cinco classes principais:
 - **Métodos**:
     - Construtor para `Cliente`: Inicializa o nó com um `Cliente` e define `solicitacao` como nulo.
     - Construtor para `Solicitacao`: Inicializa o nó com uma `Solicitacao` e define `cliente` como nulo.
-- **Restrições**: Usa apenas referências a objetos permitidos (`Cliente`, `Solicitacao`, `Node`) e não utiliza tipos proibidos.
 
 ### 4. Pilha.java
 - **Propósito**: Implementa uma pilha para armazenar o histórico de solicitações usando uma lista encadeada.
@@ -55,7 +54,6 @@ O projeto é composto por cinco classes principais:
     - `remover()`: Remove a solicitação do topo, atualizando `topo` para o próximo nó. Exibe uma mensagem se a pilha estiver vazia.
     - `bisbilhotar()`: Retorna a solicitação no topo sem removê-la (funcionalidade extra, não exigida).
     - `printar()`: Exibe todas as solicitações na pilha, mostrando `id`, `descricao` e `datahora` de cada uma.
-- **Restrições**: Usa apenas estruturas permitidas (lista encadeada via `Node`) e operações básicas de `String` para saída. Não utiliza tipos proibidos como `List` ou `ArrayList`.
 
 ### 5. Fila.java
 - **Propósito**: Implementa uma fila para gerenciar a ordem de atendimento de clientes usando uma lista encadeada.
