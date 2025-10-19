@@ -67,7 +67,7 @@ O projeto é composto por cinco classes principais:
     - `inserir(Cliente)`: Adiciona um cliente ao final da fila, criando um novo nó e ajustando `tras` (e `frente`, se a fila estiver vazia).
     - `remover()`: Remove o cliente da frente da fila, atualizando `frente` para o próximo nó. Exibe uma mensagem se a fila estiver vazia.
     - `printar()`: Exibe todos os clientes na fila, mostrando `id`, `nome` e `descricao` de cada um.
-- **Restrições**: Usa apenas estruturas permitidas (lista encadeada via `Node`) e operações básicas de `String` para saída. Não utiliza tipos proibidos.
+
 
 ### 6. Main.java
 - **Propósito**: Demonstra o funcionamento da pilha e da fila.
